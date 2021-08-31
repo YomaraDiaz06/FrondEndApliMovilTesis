@@ -6,12 +6,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public appPages = [
-    { title: 'Home', url: '/login', icon: 'home' },
-    { title: 'Login', url: '/login', icon: 'person' },
+    { title: 'Inicio', url: '/home', icon: 'home' },
+    { title: 'Ingresar', url: '/login', icon: 'person' },
     { title: 'Contáctanos', url: '/contact', icon: 'call' },
     { title: 'Soluciones', url: '/solutions', icon: 'hammer' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
+    { title: 'Favoritos', url: '/folder/Favorites', icon: 'heart' },
+    { title: 'Archivos', url: '/folder/Archived', icon: 'archive' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
     
