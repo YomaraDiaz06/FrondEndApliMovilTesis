@@ -1,32 +1,42 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>Contáctanos</ion-title>
-  </ion-toolbar>
+  </ion-toolbar >
+    <ion-icon name="logo-whatsapp" style="background-color: success; border-radius: 100%;" ></ion-icon>
+    
 </ion-header>
 
 <ion-content fullscreen>
-  <ion-list lines="full" class="ion-no-margin">
+    <ion-card>
+      
+      <ion-card-header>
+        <img src="./assets/icon/contactanos.png" />
+        <ion-card-title>Envianos un mail</ion-card-title>
+      </ion-card-header>
 
-    <ion-item>
-      <ion-label position="stacked" >Nombre</ion-label>
-      <ion-input placeholder="Yomara" type="name"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-label position="stacked" Type="email">Correo</ion-label>
-      <ion-input Type="email" placeholder="ejemplo@ejemplo.com"></ion-input>
-    </ion-item>
-
-    <ion-item>
-      <ion-label position="stacked" >Teléfono</ion-label>
-      <ion-input Type="tel" placeholder="0954378564"></ion-input>
-    </ion-item>
-
-    <ion-item>
-    <ion-label position="stacked">Mensaje</ion-label>
-      <ion-textarea Type="text" placeholder="Buenas tardes me comunico con usted ..."></ion-textarea>
-    </ion-item>
-    <ion-button >Enviar</ion-button>
-  </ion-list>
+      <ion-card-content>
+        <ion-card-subtitle>Estaremos en contacto muy pronto</ion-card-subtitle>
+        <ion-list lines="full" class="ion-no-margin">
+          <ion-item>
+            <ion-label position="stacked" >Nombre</ion-label>
+            <ion-input placeholder="Yomara" type="name"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked" Type="email">Correo</ion-label>
+            <ion-input Type="email" placeholder="ejemplo@ejemplo.com"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked" >Teléfono</ion-label>
+            <ion-input Type="tel" placeholder="0954378564"></ion-input>
+          </ion-item>
+          <ion-item>
+          <ion-label position="stacked">Mensaje</ion-label>
+            <ion-textarea Type="text" placeholder="Buenas tardes me comunico con usted ..."></ion-textarea>
+          </ion-item>
+          <ion-button color=(--color-color-mycolor)>Enviar</ion-button>
+        </ion-list>
+      </ion-card-content>
+     
+    </ion-card>
   
 </ion-content>
