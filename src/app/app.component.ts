@@ -9,6 +9,7 @@ export class AppComponent {
     { title: 'Home', url: '/login', icon: 'home' },
     { title: 'Login', url: '/login', icon: 'person' },
     { title: 'Contáctanos', url: '/contact', icon: 'call' },
+    { title: 'Soluciones', url: '/solutions', icon: 'hammer' },
     { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
     { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
     { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
