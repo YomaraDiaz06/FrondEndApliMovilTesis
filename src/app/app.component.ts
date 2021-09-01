@@ -10,10 +10,10 @@ export class AppComponent {
     { title: 'Ingresar', url: '/login', icon: 'person' },
     { title: 'Contáctanos', url: '/contact', icon: 'call' },
     { title: 'Soluciones', url: '/solutions', icon: 'hammer' },
-    { title: 'Favoritos', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archivos', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+    { title: 'Usuario cliente', url: '/userclient', icon: 'person' },
+    { title: 'Técnico', url: '/usertechnical', icon: 'person' },
+    { title: 'clienteComentarios', url: '/usercomment', icon: 'person' },
+    { title: 'TécnicoComentarios', url: '/Technicalcomment', icon: 'person' },
     
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
