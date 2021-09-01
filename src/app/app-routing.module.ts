@@ -4,13 +4,10 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
-  {
-    path: 'folder/:id',
-    loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
-  },
+   
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
@@ -30,6 +27,22 @@ const routes: Routes = [
   {
     path: 'solutions',
     loadChildren: () => import('./solutions/solutions.module').then( m => m.SolutionsPageModule)
+  },
+  {
+    path: 'userclient',
+    loadChildren: () => import('./userclient/userclient.module').then( m => m.UserclientPageModule)
+  },
+  {
+    path: 'usertechnical',
+    loadChildren: () => import('./usertechnical/usertechnical.module').then( m => m.UsertechnicalPageModule)
+  },
+  {
+    path: 'usercomment',
+    loadChildren: () => import('./usercomment/usercomment.module').then( m => m.UsercommentPageModule)
+  },
+  {
+    path: 'technicalcomment',
+    loadChildren: () => import('./technicalcomment/technicalcomment.module').then( m => m.TechnicalcommentPageModule)
   },
 ];
 
