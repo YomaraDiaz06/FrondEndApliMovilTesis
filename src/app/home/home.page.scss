@@ -1,0 +1,40 @@
+.whatsapp{
+    width: 30px;
+    height: 30px;
+    color:#00bb2d;
+}
+.call{
+    width: 30px;
+    height: 30px;
+    color:var(--ion-color-mycolora);
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+    color:#3b5998;
+    
+}
+ion-text{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+ion-item{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    border: none ! important;
+}
+ion-icon{
+    color: var(--ion-color-mycolor);
+}
+ion-title{
+    text-align: center;
+    color:rgba(60,180,172,0.58);
+}
+ion-button{
+    display:block !important;
+    margin: auto !important;
+    background-color: var(--ion-color-mycolora);
+    width: 80%;
+}

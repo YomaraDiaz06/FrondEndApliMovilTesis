@@ -2,8 +2,71 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>TecniFast</ion-title>
+    
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  </ion-content>
+  <ion-fab horizontal="end" vertical="top" slot="fixed" edge>
+    <ion-fab-button >
+      <ion-icon name="add" ></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list>
+      <ion-fab-button color="light">
+        <ion-icon name="logo-facebook" class="facebook"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="light">
+        <ion-icon name="call" class="call"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button color="light">
+        <ion-icon name="logo-whatsapp" class="whatsapp" ></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+  <ion-div><img src="./assets/icon/carusel1.jpeg" /></ion-div>
+  <ion-grid>
+    <ion-title>Servicios</ion-title>
+    <ion-row>
+    <ion-col><img src="./assets/icon/mantenimiento4.jpg" /></ion-col>
+    <ion-col><img src="./assets/icon/mantenimiento3.jpg" /></ion-col>
+    <ion-col><img src="./assets/icon/mantenimiento1.jpg" /></ion-col>
+    
+  </ion-row>
+    <ion-text>Somos un equipo innovador, donde ofrecemos el servicio de mantenimiento
+      de equipos computacionales.</ion-text>
+    <ion-text>Si deseas saber cuales son los daños posibles de tu equipo, te podemos 
+      ayudar a resolver tus dudas.
+    </ion-text>
+    <ion-button color=var(ion-color-mycolor)>Posibles daños</ion-button>
+  </ion-grid>
+  <ion-grid>
+    <ion-title>Errores más comunes</ion-title>
+    <ion-list>
+      <ion-item><ion-icon name="chevron-forward-outline"></ion-icon>El PC va lento
+      </ion-item>
+      <ion-item><ion-icon name="chevron-forward-outline"></ion-icon>Errores del sistema operativo
+      </ion-item>
+      <ion-item><ion-icon name="chevron-forward-outline"></ion-icon>El ordenador no enciende o se apaga
+      </ion-item>
+      <ion-item><ion-icon name="chevron-forward-outline"></ion-icon>Problemas con la RAM
+      </ion-item>
+      <ion-item><ion-icon name="chevron-forward-outline"></ion-icon>Problemas con la tarjeta gráfica
+      </ion-item>
+      <ion-item><ion-icon name="chevron-forward-outline"></ion-icon>Problemas en el ventilador de tu PC
+      </ion-item>
+      
+    </ion-list>
+    <ion-button routerLink="/solutions" color=var(ion-color-mycolor)>Posibles daños </ion-button>
+  </ion-grid>
+  <ion-card>
+  
+      <ion-card-header>
+        <ion-card-title>El PC va muy lento</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        Si el ordenador ha disminuido su rendimiento, puede necesitar desfragmentación del disco duro o haya
+        realizado una ejecución de un software malicioso (virus informático, gusanos informáticos, malaware)que afecta a la velocidad del sistema y te haga falta una 
+        limpieza de virus.
+      </ion-card-content>
+  </ion-card>
+</ion-content>
