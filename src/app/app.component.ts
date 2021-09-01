@@ -16,6 +16,5 @@ export class AppComponent {
     { title: 'TécnicoComentarios', url: '/Technicalcomment', icon: 'person' },
     
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
 }
