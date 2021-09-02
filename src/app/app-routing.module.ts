@@ -30,7 +30,7 @@ const routes: Routes = [
   },
   {
     path:'userclient',
-    loadChildren: () => import('./userclient/userclient.module').then ( m => m.UsercommentPageModule)
+    loadChildren: () => import('./userclient/userclient.module').then ( m => m.UserclientPageModule)
   },
   {
     path: 'usertechnical',

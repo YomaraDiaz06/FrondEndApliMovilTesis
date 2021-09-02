@@ -17,4 +17,4 @@ import { UserclientPage } from './userclient.page';
   ],
   declarations: [UserclientPage]
 })
-export class UserclientPageModule {}
+export class UserclientPageModule{}
