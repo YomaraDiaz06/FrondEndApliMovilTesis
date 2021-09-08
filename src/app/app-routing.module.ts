@@ -43,7 +43,15 @@ const routes: Routes = [
   {
     path: 'technicalcomment',
     loadChildren: () => import('./technicalcomment/technicalcomment.module').then( m => m.TechnicalcommentPageModule)
+  },  {
+    path: 'work',
+    loadChildren: () => import('./work/work.module').then( m => m.WorkPageModule)
   },
+  {
+    path: 'request',
+    loadChildren: () => import('./request/request.module').then( m => m.RequestPageModule)
+  },
+
 ];
 
 @NgModule({

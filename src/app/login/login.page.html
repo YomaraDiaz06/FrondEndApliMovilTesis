@@ -1,12 +1,12 @@
 <ion-header class="ion-no-border">
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-button color="primary" href="/home">
+      <ion-button color="var(--ion-color-mycolor)" href="/home">
         <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
       </ion-button>
     </ion-buttons>
     <ion-buttons slot="end">
-      <ion-button href="/signup">Registrarse</ion-button>
+      <ion-button href="/signup" color="var(--ion-color-mycolor)">Registrarse</ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -18,8 +18,8 @@
   </div>
 
   <form id="form">
-    <app-input placeholder="Correo">Correo</app-input>
+    <app-input type="email"placeholder="Correo">Correo</app-input>
     <app-input type="password" placeholder="Contraseña">Contraseña</app-input>
-    <ion-button expand="block"  color= #FB743E>Ingresar</ion-button>
+    <ion-button expand="block"  color= "--ion-color-mycolor">Ingresar</ion-button>
   </form>
 </ion-content>

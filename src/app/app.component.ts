@@ -13,7 +13,9 @@ export class AppComponent {
     { title: 'Usuario cliente', url: '/userclient', icon: 'person' },
     { title: 'Técnico', url: '/usertechnical', icon: 'person' },
     { title: 'clienteComentarios', url: '/usercomment', icon: 'person' },
-    { title: 'TécnicoComentarios', url: '/Technicalcomment', icon: 'person' },
+    { title: 'TécnicoComentarios', url: '/technicalcomment', icon: 'person' },
+    { title: 'Trabaja con nosotros', url: 'work', icon: 'briefcase' },
+    { title: 'Peticiones', url: '/request', icon: 'person' },
     
   ];
   constructor() {}
